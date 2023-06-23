@@ -4,7 +4,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { useState } from 'react'
 import { FaEthereum } from 'react-icons/fa'
-import Identicon from 'react-identicons'
+import Identicon from 'react-identiconss'
 
 const isValid = (account) => ethers.utils.isAddress(account)
 
